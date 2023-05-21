@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+<body id="bod" background="./Earth-from-Space-istock-scaled.jpg">
+    <div class="nav">
+        <h1>Justin Parris</h1>
+        <div class="links">
+            <a href="#about">About Me</a>
+            <a href="#creations">Projects</a>
+            <a href="#languages">Languages</a>
+            <a href="https://github.com/Jaypa92">Github</a>
+            <a href="https://www.linkedin.com/in/justin-parris-b67312266/">LinkedIn</a>
+            <a href='mailto:"j.parris1@aol.com"'>Email Me</a>
+        </div>
+    </div>
+    <h1 class="line-1">Just one simple idea...</h1>
+    <h1 class="line-2">can change the world</h1>
+    <h2>-Ranal Currie-</h2>
+    <div class="main">
+        <div class="left">
+            <h1 id="about"><img class="pic" src="./curious.jpg" alt="me" onmouseover="change(this)"
+                    onmouseout="this.src='./curious.jpg'"></h1>
+            <h3>Curious About Me?</h3>
+            <p>Hi! My name is Justin and I'm a developing Software Engineer. I've always had an interest in tech and
+                have found
+                it to be fascinating how an idea brought to life can change the quality of life for everyone. I've
+                recently decided to change my occupation
+                as a lead machine operator in the work force to becoming a part of that change. Bringing ideas to
+                life is what I'm into and is also my main goal and I'd
+                love to hear what you've got! Other than that I'm into music and can play a variety of instruments.
+                It's just another way of bringing different types of ideas to life.
+            </p>
+        </div>
+        <div class="right">
+            <h1><img class="pic" src="./graduation-cap-clipart-vector.png" alt="education">
+            </h1>
+            <h3>Education:</h3>
+            <p>I obtained my high school diploma from Boiling Springs High School in 2010 and have been attending
+                Coding
+                Dojo Boot Bootcamp for some time.
+                It's from there that I've gained the knowledge to create websites from their idea drawn blueprint
+                state
+                and bring them to life.
+            </p>
+        </div>
+    </div>
+    <div class="projects">
+        <h3 id="creations">Things I've Made:</h3>
+        <div class="top">
+            <div class="box">
+                <img src="./phil-s.jpg" alt="phil">
+                <p><a href="./Parris_Justin_profile2.html">Phil's Profile Page</a></p>
+                <p>(made with HTML and CSS)</p>
+            </div>
+            <div class="box">
+                <img class="user" src="./user-circle.png" alt="user">
+                <p><a href="./Parris_Justiin_likes.html">Experimental Functional Page</a></p>
+                <p>(made with HTML, CSS, and Javascript)</p>
+            </div>
+            <div class="box">
+                <img class="user" src="./some_sun.png" alt="sun">
+                <p><a href="./Dojo_weather.html">Made a Weather Page</a></p>
+                <p>(HTML, CSS, Javascript)</p>
+            </div>
+        </div>
+        <div class="bottom" id="languages">
+            <img src="./html-gray.png" alt="HTML">
+            <img src="./imglogo.png" alt="CSS">
+            <img src="./javascript-gray.png" alt="Javascript">
+        </div>
+        <p><button onclick="changePic('#bod')">Click to Change the World</button></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
