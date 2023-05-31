@@ -34,4 +34,4 @@ hotline while the other one gives information on how to improve menatl health
 
 ![link](https://github.com/Jaypa92/Projects/assets/96949038/bd9d1066-5d8e-49b5-bda5-4d8f915bdca4)
 
-Technologies Used: Python, Flask, mySQL, Bootstrap for styling
+Technologies Used: Python, Flask, mySQL, Bootstrap for styling, JavaScript, CSS, HTML
