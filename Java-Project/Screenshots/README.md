@@ -5,7 +5,8 @@ Named the website Pet-Fo where users can go in and add information about their p
 xan make a well informed decision before going out and getting a pet.
 
 Here is the Home Page for the Pet-Fo website
-[Home-page](https://github.com/Jaypa92/Projects/assets/96949038/facd5a76-cca5-462c-a84f-58b540af620e)
+
+![Home-page](https://github.com/Jaypa92/Projects/assets/96949038/d372f443-1e22-4cd4-a3f5-1854ac90caac)
 
 Users can Log In if they have an account or Sign Up if they want to. Registering is not required to view content but is for posting
 ![Log-In](https://github.com/Jaypa92/Projects/assets/96949038/8751abfc-b9e7-4f8b-b57f-3e7a03031cf7)
